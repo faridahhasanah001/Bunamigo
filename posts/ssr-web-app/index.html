@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ssr Web App - Create &amp;amp; deploy serverless ssr angular app on aws lambda. - Bunamigo</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="This is the place where you can configure some ssr options.">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Bunamigo" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Bunamigo</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+	
+    <script data-cfasync="false">
+    var _avp = _avp || [];
+    (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = window.location.protocol + '//adserver.adreactor.com/js/libcode3.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+    })();
+    </script>
+    
+	
+	    
+    <script>
+    if (!document.cookie || document.cookie.indexOf('AVPWCAP=') == -1) {
+    _avp.push({ alias: '/', type: 'window', zid: 23, pid: 8697 });
+    }
+    </script>
+    
+	
+<script>(function(a,b,c){Object.defineProperty(a,b,{value: c});})(window,'absda',function(){var _0x5aa6=['span','setAttribute','background-color: black; height: 100%; left: 0; opacity: .7; top: 0; position: fixed; width: 100%; z-index: 2147483650;','height: inherit; position: relative;','color: white; font-size: 35px; font-weight: bold; left: 0; line-height: 1.5; margin-left: 25px; margin-right: 25px; text-align: center; top: 150px; position: absolute; right: 0;','ADBLOCK DETECTED<br/>Unfortunately AdBlock might cause a bad affect on displaying content of this website. Please, deactivate it.','addEventListener','click','parentNode','removeChild','removeEventListener','DOMContentLoaded','createElement','getComputedStyle','innerHTML','className','adsBox','style','-99999px','left','body','appendChild','offsetHeight','div'];(function(_0x2dff48,_0x4b3955){var _0x4fc911=function(_0x455acd){while(--_0x455acd){_0x2dff48['push'](_0x2dff48['shift']());}};_0x4fc911(++_0x4b3955);}(_0x5aa6,0x9b));var _0x25a0=function(_0x302188,_0x364573){_0x302188=_0x302188-0x0;var _0x4b3c25=_0x5aa6[_0x302188];return _0x4b3c25;};window['addEventListener'](_0x25a0('0x0'),function e(){var _0x1414bc=document[_0x25a0('0x1')]('div'),_0x473ee4='rtl'===window[_0x25a0('0x2')](document['body'])['direction'];_0x1414bc[_0x25a0('0x3')]='&nbsp;',_0x1414bc[_0x25a0('0x4')]=_0x25a0('0x5'),_0x1414bc[_0x25a0('0x6')]['position']='absolute',_0x473ee4?_0x1414bc[_0x25a0('0x6')]['right']=_0x25a0('0x7'):_0x1414bc[_0x25a0('0x6')][_0x25a0('0x8')]=_0x25a0('0x7'),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x1414bc),setTimeout(function(){if(!_0x1414bc[_0x25a0('0xb')]){var _0x473ee4=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x3c0b3b=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x1f5f8c=document[_0x25a0('0x1')](_0x25a0('0xd')),_0x5a9ba0=document['createElement']('p');_0x473ee4[_0x25a0('0xe')]('style',_0x25a0('0xf')),_0x3c0b3b['setAttribute']('style',_0x25a0('0x10')),_0x1f5f8c[_0x25a0('0xe')](_0x25a0('0x6'),'color: white; cursor: pointer; font-size: 50px; font-weight: bold; position: absolute; right: 30px; top: 20px;'),_0x5a9ba0[_0x25a0('0xe')](_0x25a0('0x6'),_0x25a0('0x11')),_0x5a9ba0[_0x25a0('0x3')]=_0x25a0('0x12'),_0x1f5f8c[_0x25a0('0x3')]='&#10006;',_0x3c0b3b['appendChild'](_0x5a9ba0),_0x3c0b3b[_0x25a0('0xa')](_0x1f5f8c),_0x1f5f8c[_0x25a0('0x13')](_0x25a0('0x14'),function _0x3c0b3b(){_0x473ee4[_0x25a0('0x15')][_0x25a0('0x16')](_0x473ee4),_0x1f5f8c['removeEventListener']('click',_0x3c0b3b);}),_0x473ee4[_0x25a0('0xa')](_0x3c0b3b),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x473ee4);}},0xc8),window[_0x25a0('0x17')]('DOMContentLoaded',e);});});</script><script type='text/javascript' onerror='absda()' src='//blissfuldes.com/41/6c/2e/416c2e838ffd0ebdc5c06cfa83cc5244.js'></script>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Ssr Web App - Create &amp;amp; deploy serverless ssr angular app on aws lambda.</h1>
+			
+		</header><div class="content post__content clearfix">
+			
+<p>Ssr Web App : .web.cofig file for server side rendring(ssr) on web app(iis) and how to deploye ssr angular app by visual studio code.</p>	
+	
+		<section>
+    <aside> 
+        <a href="https://hackernoon.com/images/LZYp1N9VV6YUjZi4dpQnE1SRLN13-ry23yyj.jpg"><img alt="Improving React App Performance With Ssr And Rust Rust Vs Node Js Part Iii Hacker Noon This is the place where you can configure some ssr options. ssr and rust rust vs node js part iii" src="https://hackernoon.com/images/LZYp1N9VV6YUjZi4dpQnE1SRLN13-ry23yyj.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvE36WrYK-rvac4qZWpU922bGqTk0V_VaQWw&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1522x756 px</li> 
+    <mark>Improving React App Performance With Ssr And Rust Rust Vs Node Js Part Iii Hacker Noon </mark> - Create react ssr app with your custom config and learn how every thing works from project setup, webpack config to hello everyone, this react ssr article is for those developers who love control.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/18023/client-side-vs-server-side-pre-rendering-b43c48127da106c356a983d35f6d8039.png"><img alt="Web Apps Client Side Rendering Ssr Pre Rendering Toptal With ssr, also called universal or isomorphic mode, a node.js server will be used to deliver because implementing ssr on your own can be really tedious, nuxt.js gives you full support out of. web apps client side rendering ssr" src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/18023/client-side-vs-server-side-pre-rendering-b43c48127da106c356a983d35f6d8039.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdeRX-HhlVnDYGrK-Txr6uIQDvIODuEEl4A&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1720x900 px</li> 
+    <mark>Web Apps Client Side Rendering Ssr Pre Rendering Toptal </mark> - With ssr, your initial request will first load the page, layout, css, javascript, and content.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://miro.medium.com/max/6692/1*bFkE292yNaxErbbhJ8Ee-w.png"><img alt="Server Side Rendering With React Redux And React Router By Ilker Altin Itnext Web components are completely compatible with ssr. server side rendering with react redux" src="https://miro.medium.com/max/6692/1*bFkE292yNaxErbbhJ8Ee-w.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK6BhnNuGS6Q21fHyUu2nM-sipLHjMPL7jCA&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 3346x1828 px</li> 
+    <mark>Server Side Rendering With React Redux And React Router By Ilker Altin Itnext </mark> - To deploy your ssr angular app on aws lambda, you will need an aws account and create an &#039;iam&#039; user with related permissions.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://miro.medium.com/max/1024/1*8QKmV8WoZG6V0cOoM4Oe6w.png"><img alt="Using Server Side Rendering Ssr With Angular 6 Universal And Firebase By Gregor Srdic Medium Part 6 of 6 in our vue.js performance series. using server side rendering ssr with" src="https://miro.medium.com/max/1024/1*8QKmV8WoZG6V0cOoM4Oe6w.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3kBTe1HNxDcU6bkW-mRfvQt37MJGAacztog&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1024x768 px</li> 
+    <mark>Using Server Side Rendering Ssr With Angular 6 Universal And Firebase By Gregor Srdic Medium </mark> - Part 6 of 6 in our vue.js performance series.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://www.ngdevelop.tech/wp-content/uploads/2020/06/SSR-and-Prerendering-768x460.png"><img alt="Prerender Angular Application Using Angular Universal Prerenderer This is the place where you can configure some ssr options. prerender angular application using" src="https://www.ngdevelop.tech/wp-content/uploads/2020/06/SSR-and-Prerendering-768x460.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiElgT_8l4BOWQK-mYKe92VxhhPeP5SmXy1A&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 768x460 px</li> 
+    <mark>Prerender Angular Application Using Angular Universal Prerenderer </mark> - Setting up ssr (server side rendering) with react is painful.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://kruschecompany.com/wp-content/uploads/2018/07/g7uhxfawb.jpg"><img alt="Ssr Or Csr What Is Better For Progressive Web App Create &amp; deploy serverless ssr angular app on aws lambda. ssr or csr what is better for" src="https://kruschecompany.com/wp-content/uploads/2018/07/g7uhxfawb.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk69F6_ap4bLdXwWjwQ0TTDlS2pKYLWaAXpA&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1200x628 px</li> 
+    <mark>Ssr Or Csr What Is Better For Progressive Web App </mark> - Part 6 of 6 in our vue.js performance series.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://miro.medium.com/max/298/1*CqcEOVj22BFnh1mYELJ0wA.png"><img alt="Creating Server Rendered Ssr Progressive Web Apps Pwa Using React 16 React Router 4 And Express 4 Part 2 By Adarsh Singh Medium It&#039;s so easy to make a web app ui with vue.js. progressive web apps pwa" src="https://miro.medium.com/max/298/1*CqcEOVj22BFnh1mYELJ0wA.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0fT6AieA85lzqyQ7RvkmkyBDaWqFtBgjZUQ&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 298x449 px</li> 
+    <mark>Creating Server Rendered Ssr Progressive Web Apps Pwa Using React 16 React Router 4 And Express 4 Part 2 By Adarsh Singh Medium </mark> - Once you have your web app just the way you like it, it&#039;s time to do a little bit of refactoring to get it ready for we&#039;ll start with index.js, which our main entrypoint for the ssr side of our web app.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://inmediatum.com/wp-content/uploads/2020/03/fotodrcha.png"><img alt="Who Is Better Ssr Application Vs Spa Application Inmediatum Let&#039;s see how, starting with a common but what if you don&#039;t have an ssr solution to lean on or your entire app is based on web components? ssr application vs spa application" src="https://inmediatum.com/wp-content/uploads/2020/03/fotodrcha.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4BXKh5OFvchazHnxegB5I3mfMvH8zy49j3Q&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 290x165 px</li> 
+    <mark>Who Is Better Ssr Application Vs Spa Application Inmediatum </mark> - Setting up ssr (server side rendering) with react is painful.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/177014934/original/18f80da8c8f4c273046c77e9ec7b789c7639e7b4/create-server-side-rendering-ssr-app-with-nextjs.jpg"><img alt="Create Ssr Or Ssg Web App With Nextjs And React By Mehtanilay10 Fiverr What an era we live! fiverr" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/177014934/original/18f80da8c8f4c273046c77e9ec7b789c7639e7b4/create-server-side-rendering-ssr-app-with-nextjs.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpslo4Ln_VtG3Ht6t1V-_lXxzOKonPJNvjWA&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1200x630 px</li> 
+    <mark>Create Ssr Or Ssg Web App With Nextjs And React By Mehtanilay10 Fiverr </mark> - With ssr, also called universal or isomorphic mode, a node.js server will be used to deliver because implementing ssr on your own can be really tedious, nuxt.js gives you full support out of.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://developers.google.com/web/updates/images/2019/02/rendering-on-the-web/trisomorphic.png"><img alt="Rendering On The Web Google Developers Single page apps are a popular way of building modern web applications. rendering on the web google developers" src="https://developers.google.com/web/updates/images/2019/02/rendering-on-the-web/trisomorphic.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03w8pirYq1Swo11IhLaDkbPuDDsqBj0yA6w&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 2108x1328 px</li> 
+    <mark>Rendering On The Web Google Developers </mark> - Once you have your web app just the way you like it, it&#039;s time to do a little bit of refactoring to get it ready for we&#039;ll start with index.js, which our main entrypoint for the ssr side of our web app.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://i2.wp.com/devdactic.com/wp-content/uploads/2020/06/ionic-ssr-default.png?resize=964%2C660&amp;ssl=1"><img alt="The Ultimate Ionic Server Side Rendering Guide Ssr Devdactic Ionic Tutorials Ssr webs &amp; android development helps you design your website, android ios applications &amp; bca mca mini &amp;. the ultimate ionic server side" src="https://i2.wp.com/devdactic.com/wp-content/uploads/2020/06/ionic-ssr-default.png?resize=964%2C660&amp;ssl=1" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtm3dykHfnDa1ej1xjFJk0oU9nXFJyTToRjw&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 964x660 px</li> 
+    <mark>The Ultimate Ionic Server Side Rendering Guide Ssr Devdactic Ionic Tutorials </mark> - I can&#039;t believe it&#039;s that easy to deploy ssr app.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://uploads.toptal.io/blog/image/127004/toptal-blog-image-1535620212839-b5688b29b5058b9c9cf251284e7d0779.png"><img alt="Web Apps Client Side Rendering Ssr Pre Rendering Toptal Setting up ssr (server side rendering) with react is painful. web apps client side rendering ssr" src="https://uploads.toptal.io/blog/image/127004/toptal-blog-image-1535620212839-b5688b29b5058b9c9cf251284e7d0779.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_0cGe9Q_RUu1IbDesRyPaX6y5dPOTDbg0A&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1720x761 px</li> 
+    <mark>Web Apps Client Side Rendering Ssr Pre Rendering Toptal </mark> - A fast, simple &amp; powerful blog framework, powered by node.js and vue.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://www.vairix.com/system/archives/names/000/000/283/original/header-Server-Side-Rendering.jpg?1582034016"><img alt="Server Side Rendering Of Create React App In 2020 What an era we live! server side rendering of create react" src="https://www.vairix.com/system/archives/names/000/000/283/original/header-Server-Side-Rendering.jpg?1582034016" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwTn2QmeMA7-tqF8wLhm-ZVlYQMHkfZkZEsQ&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1180x300 px</li> 
+    <mark>Server Side Rendering Of Create React App In 2020 </mark> - Ssr webs &amp; android development helps you design your website, android ios applications &amp; bca mca mini &amp;.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://images.ctfassets.net/uiz257wkgye1/7g7IYOUXKtGwT6s0WG2hNZ/91509f1dff16a796e559d69d5fa67a3d/Angular_SSR_-_3-_Launching_Angular_Universal_development_server.png"><img alt="Angular Universal Example Server Side Rendering Ssr Prerender Simply How A fast, simple &amp; powerful blog framework, powered by node.js and vue. angular universal example server side" src="https://images.ctfassets.net/uiz257wkgye1/7g7IYOUXKtGwT6s0WG2hNZ/91509f1dff16a796e559d69d5fa67a3d/Angular_SSR_-_3-_Launching_Angular_Universal_development_server.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJA1zp7yHd8tBh2V8dBP_kffktwVo_1N3tDA&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1380x903 px</li> 
+    <mark>Angular Universal Example Server Side Rendering Ssr Prerender Simply How </mark> - Once you have your web app just the way you like it, it&#039;s time to do a little bit of refactoring to get it ready for we&#039;ll start with index.js, which our main entrypoint for the ssr side of our web app.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://developers.google.com/web/updates/images/2019/02/rendering-on-the-web/server-rendering-tti.png"><img alt="Rendering On The Web Google Developers How i built a ssr ready star wars app with svelte in just few hours. rendering on the web google developers" src="https://developers.google.com/web/updates/images/2019/02/rendering-on-the-web/server-rendering-tti.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkAY1I_VXR6Icm6wC1qBrOphFFiMU_lGw_Q&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 994x614 px</li> 
+    <mark>Rendering On The Web Google Developers </mark> - A fast, simple &amp; powerful blog framework, powered by node.js and vue.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://images.ctfassets.net/uiz257wkgye1/6eXOEPpW3oEWYE9vZZjUXg/9efc884b4c7e0be268cf49056372e98b/Angular_SSR_-_5-_Angular_Universal_production_build.png"><img alt="Angular Universal Example Server Side Rendering Ssr Prerender Simply How Part 6 of 6 in our vue.js performance series. angular universal example server side" src="https://images.ctfassets.net/uiz257wkgye1/6eXOEPpW3oEWYE9vZZjUXg/9efc884b4c7e0be268cf49056372e98b/Angular_SSR_-_5-_Angular_Universal_production_build.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyJng3D68sebNzvuLgGb8EYc93G6pLUr5O1g&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 954x421 px</li> 
+    <mark>Angular Universal Example Server Side Rendering Ssr Prerender Simply How </mark> - Setting up ssr (server side rendering) with react is painful.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://www.christianoliveira.com/blog/wp-content/uploads/2018/06/google-index-js-two-waves.jpg"><img alt="Seo For Progressive Web Apps Pwa And Javascript Sites Blog De Christian Oliveira Create &amp; deploy serverless ssr angular app on aws lambda. seo for progressive web apps pwa and" src="https://www.christianoliveira.com/blog/wp-content/uploads/2018/06/google-index-js-two-waves.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0L4Lh5aM22PozbaYck0acX6JAu9FPGFA0w&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 635x376 px</li> 
+    <mark>Seo For Progressive Web Apps Pwa And Javascript Sites Blog De Christian Oliveira </mark> - Setting up ssr (server side rendering) with react is painful.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://uploads.toptal.io/blog/image/127005/toptal-blog-image-1535714166711-83ff57e99f24e7b39e79cc0c766015ac.png"><img alt="Web Apps Client Side Rendering Ssr Pre Rendering Toptal With ssr, your initial request will first load the page, layout, css, javascript, and content. web apps client side rendering ssr" src="https://uploads.toptal.io/blog/image/127005/toptal-blog-image-1535714166711-83ff57e99f24e7b39e79cc0c766015ac.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrkCe0JWY8DFrwg4_Aq9mr0P26vhJRp_VK4w&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 1720x686 px</li> 
+    <mark>Web Apps Client Side Rendering Ssr Pre Rendering Toptal </mark> - There is no good overview or starting point.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/da1ef4c9-9d18-49c4-9d01-2defed1af3df/ssg-ssr-01-ssg.png"><img alt="Differences Between Static Generated Sites And Server Side Rendered Apps Smashing Magazine Please provide the step to deploy and configure ssr angular universal on web app. server side rendered apps" src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/da1ef4c9-9d18-49c4-9d01-2defed1af3df/ssg-ssr-01-ssg.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Ce0nRyXdNsM7y9LWwOPim3BtkBtRm3H-cg&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 2057x819 px</li> 
+    <mark>Differences Between Static Generated Sites And Server Side Rendered Apps Smashing Magazine </mark> - I can&#039;t believe it&#039;s that easy to deploy ssr app.
+</figcaption>  
+    </aside>
+    <aside> 
+        <a href="https://miro.medium.com/max/659/1*q9A5P7B6vq_RDXt_95yX3w.png"><img alt="Serving Cached Angular Universal Ssr Web App Through Apache Proxy By Nostop8 Medium With ssr, also called universal or isomorphic mode, a node.js server will be used to deliver because implementing ssr on your own can be really tedious, nuxt.js gives you full support out of. serving cached angular universal ssr" src="https://miro.medium.com/max/659/1*q9A5P7B6vq_RDXt_95yX3w.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9cZBcp1GwfCkwtiDVvonQ3SAC95X306nOXQ&amp;usqp=CAU';"></a>
+ <figcaption>
+   <div align="center">
+<li>Original Resolution: 659x486 px</li> 
+    <mark>Serving Cached Angular Universal Ssr Web App Through Apache Proxy By Nostop8 Medium </mark> - How i built a ssr ready star wars app with svelte in just few hours.
+</figcaption>  
+    </aside>
+</section>
+		
+<h3>Random Posts</h3>
+		
+<li><a href="/posts/dahleez-aashish-mehrotra" target="_blank">Dahleez Aashish Mehrotra</a></li>
+		
+<li><a href="/posts/gautham-karthik-new-movie-first-look" target="_blank">Gautham Karthik New Movie First Look</a></li>
+		
+<li><a href="/posts/bank-chor-movie-download-filmyhit" target="_blank">Bank Chor Movie Download Filmyhit</a></li>
+		
+<li><a href="/posts/majnu-heroine-name" target="_blank">Majnu Heroine Name</a></li>
+		
+<li><a href="/posts/driving-license-malayalam-movie-online" target="_blank">Driving License Malayalam Movie Online</a></li>
+		
+<li><a href="/posts/mayanadhi-telugu-movie-trailer" target="_blank">Mayanadhi Telugu Movie Trailer</a></li>
+		
+<li><a href="/posts/laila-and-majnu-real-picture" target="_blank">Laila And Majnu Real Picture</a></li>
+		
+<li><a href="/posts/gaddalakonda-ganesh-songs-download" target="_blank">Gaddalakonda Ganesh Songs Download</a></li>
+		
+<li><a href="/posts/kartik-aryaan-height-cm" target="_blank">Kartik Aryaan Height Cm</a></li>
+		
+<li><a href="/posts/melamet-cream-amazon" target="_blank">Melamet Cream Amazon</a></li>
+		
+<li><a href="/posts/gigapedia-org" target="_blank">Gigapedia.org</a></li>
+		
+<li><a href="/posts/cara-membuat-alat-tanam-jagung-modern" target="_blank">Cara Membuat Alat Tanam Jagung Modern</a></li>
+		
+<li><a href="/posts/adimai-penn-mgr" target="_blank">Adimai Penn Mgr</a></li>
+		
+<li><a href="/posts/dakaar-cafe-and-hookah-lounge-raipur-photos" target="_blank">Dakaar Cafe And Hookah Lounge Raipur Photos</a></li>
+		
+<li><a href="/posts/todaypk-2021-bollywood" target="_blank">Todaypk 2021 Bollywood</a></li>
+	
+<h3>Popular Posts</h3>
+		
+<li><a href="/posts/aankhon-mein-tera-hi-chehra-lyrics-mp3-song-download" target="_blank">Aankhon Mein Tera Hi Chehra Lyrics Mp3 Song Download</a></li>
+		
+<li><a href="/posts/laila-majnu-full-movie-rishi-kapoor-1976-hindi-hd-download" target="_blank">Laila Majnu Full Movie Rishi Kapoor 1976 Hindi Hd Download</a></li>
+		
+<li><a href="/posts/adimai-penn-mgr-movie" target="_blank">Adimai Penn Mgr Movie</a></li>
+		
+<li><a href="/posts/romantic-hindi-songs-2014-list" target="_blank">Romantic Hindi Songs 2014 List</a></li>
+		
+<li><a href="/posts/55-kg-60-kg-bodybuilder" target="_blank">55 Kg 60 Kg Bodybuilder</a></li>
+		
+<li><a href="/posts/secret-superstar-cast-name" target="_blank">Secret Superstar Cast Name</a></li>
+		
+<li><a href="/posts/anjala-zaveri-wiki-husband" target="_blank">Anjala Zaveri Wiki Husband</a></li>
+		
+<li><a href="/posts/molkki-today-full-episode-65" target="_blank">Molkki Today Full Episode 65</a></li>
+		
+<li><a href="/posts/thirutu-movies-in-2021" target="_blank">Thirutu Movies.in 2021</a></li>
+		
+<li><a href="/posts/1990-to-2000-hit-hindi-mp3-songs-free-download" target="_blank">1990 To 2000 Hit Hindi Mp3 Songs Free Download</a></li>
+		
+<li><a href="/posts/cross-and-inshallah-meaning" target="_blank">Cross And Inshallah Meaning</a></li>
+		
+<li><a href="/posts/dekh-bhai-dekh-cast-then-and-now" target="_blank">Dekh Bhai Dekh Cast Then And Now</a></li>
+		
+<li><a href="/posts/betnovate-c-cream-side-effects" target="_blank">Betnovate C Cream Side Effects</a></li>
+		
+<li><a href="/posts/isaimini-video-songs-download-2020" target="_blank">Isaimini Video Songs Download 2020</a></li>
+		
+<li><a href="/posts/orasaadha-song-lyrics" target="_blank">Orasaadha Song Lyrics</a></li>
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://bunamigo.vercel.app/" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/3movierulz-tv-category-movierulz-today-page-28/">3Movierulz Tv Category Movierulz Today Page 28 : The 123movierulz website is shows error and not opened.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/bala-bala-song-download-pagalworld-mp3-housefull-4/">Bala Bala Song Download Pagalworld Mp3 Housefull 4 : Bala housefull terbaru gratis dan mudah dinikmati.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/filmymeet-com-punjabi/">Filmymeet.com Punjabi - Filmymeet com website में आपको pirated video content देखने को मिल जाता है और आपको पता ही होगा कि filmymeet.org.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/gaddalakonda-ganesh-naa-songs-mp3/">Gaddalakonda Ganesh Naa Songs Mp3 : Gaddlakonda ganesh naa songs latest songs from telugu movie.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/hakuna-matata-resort-udupi/">Hakuna Matata Resort Udupi / Check all reviews, photos, contact number &amp;amp; address of akuna matata, udupi and ✅free cancellation of.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/i-movie-naa-songs-download-in-hindi/">I Movie Naa Songs Download In Hindi : Baarish (official video) payal dev,stebin ben | mohsin khan, shivangi joshi |kunaal v| new song 2020.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/justin-whang-mr-robot/">Justin Whang Mr Robot - When tod campbell joined mr.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/kadal-gautham-karthik-hd/">Kadal Gautham Karthik Hd - Kadal film official trailer, kadal movie trailerkadal film is directed by maniratnam, with gautham karthik and thulasi nair playing the lead kadal film official trailer, kadal movie trailer.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/kuttymovies-net-2021/">Kuttymovies Net 2021 - Tamil movie download, kuttymovies, kuttymovies 2021 tamil movies, kuttymovies 2021 new movies download, kuttymovies new movies, kuttymovies full movies download, kuttymovies.net.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/kuttyweb-2021-tamil-movies-download/">Kuttyweb 2021 Tamil Movies Download : Download tamil movies full hd online, kuttyweb tamil songs download, tamil dubbed movies, kuttywebsongs, all latest songs mp3 free.</a></li>
+		</ul>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Bunamigo.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+		
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-21862896-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-21862896-2');
+</script>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
